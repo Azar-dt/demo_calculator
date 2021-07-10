@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="page_icon" href="./image/icon2.png">
+</head>
+<body>
+    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/lFNWUL9fqG8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+    <table class="table1">
+        <tr>
+            <td colspan="4">
+                <input type="text" id="screen">
+                
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="button" onclick="setScreen('(')">(</button>
+            </td>
+            <td>
+                <button class="button" onclick="setScreen(')')">)</button>
+            </td>
+            <td>
+                <button class="button" id="del" onclick="DEL()">DEL</button>
+            </td>
+            <td>
+                <button class="button" id="ac" onclick="AC()">AC</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="button" onclick="setScreen('1')">1</button>
+            </td>
+            <td>
+                <button class="button" onclick="setScreen('2')">2</button>
+            </td>
+            <td>
+                <button class="button" onclick="setScreen('3')">3</button>
+            </td>
+            <td>
+                <button class="button" onclick="setScreen('+')">+</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="button" onclick="setScreen('4')">4</button>
+            </td>
+            <td>
+                <button class="button" onclick="setScreen('5')">5</button>
+            </td>
+            <td>
+                <button class="button" onclick="setScreen('6')">6</button>
+            </td>
+            <td>
+                <button class="button" onclick="setScreen('-')">-</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="button" onclick="setScreen('7')">7</button>
+            </td>
+            <td>
+                <button class="button" onclick="setScreen('8')">8</button>
+            </td>
+            <td>
+                <button class="button" onclick="setScreen('9')">9</button>
+            </td>
+            <td>
+                <button class="button" onclick="setScreen('*')">*</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="button" onclick="setScreen('.')">.</button>
+            </td>
+            <td>
+                <button class="button" onclick="setScreen('0')">0</button>
+            </td>
+            <td>
+                <button class="button" onclick="setScreen('/')">/</button>
+            </td>
+            <td>
+                <button class="button" onclick="doMath()">=</button>
+                
+            </td>
+        </tr>
+    </table>
+    <script src="main.js"></script>
+</body>
+</html>
