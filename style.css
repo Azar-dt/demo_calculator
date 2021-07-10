@@ -1,10 +1,11 @@
 #screen { 
     border-color: gray;
-    border-width: 4px; */
-    /* padding: 10px; */ */
+    border-width: 4px; 
+    height: 1cm;
+    /* padding: 10px; */ 
     /* font-size: 10px; */
     font-weight: bolder;
-    font-size : 30px; 
+     
 }
 
 table { 
